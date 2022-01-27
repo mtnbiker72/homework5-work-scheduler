@@ -16,6 +16,8 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 
+
+
     function timeTracker() {
         // Get the current hour of the day
         var timeNow = moment().hour();
@@ -58,4 +60,11 @@ $(document).ready(function () {
     $("#17.description").val(localStorage.getItem("17"));
 
     timeTracker();
+})
+
+const clearButton = document.querySelector("#clear-button");
+$(".clear-button").click(function (event) {
+    event.preventDefault;
+    localStorage.clear();
+    $(".description").val("");
 })

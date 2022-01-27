@@ -1,5 +1,7 @@
 ## Homework #5 Third-Party APIs: Work Day Scheduler
 
+This app can be viewed here: https://mtnbiker72.github.io/homework5-work-scheduler
+
 Build a daily planner that allows the user to input tasks into the schedule and save entries
 Functionality includes:
 * Insert current time and date using moment.js
